@@ -21,4 +21,4 @@ do
 	operationArray[$j]=${operationDic[$(($j+1))]}
 done
 
-printf '%s\n' "${operationArray[@]}" | sort -nr
+printf '%s\n' "${operationArray[@]}" | sort -n
